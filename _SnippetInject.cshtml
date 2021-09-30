@@ -1,0 +1,37 @@
+@inherits Custom.Hybrid.Razor12
+@using ToSic.Razor.Blade;
+
+@if(Edit.Enabled) {
+  <div class='@(Settings.hasStyles || Settings.hasJavaScript ? "app-snippetinject3-edit" : "")' @Edit.TagToolbar(Content)>
+    @if (Settings.hasStyles || Settings.hasJavaScript) {
+        @Resources.DoNotDeleteWarning
+    }
+    @if (!Settings.hasStyles && !Settings.hasJavaScript) {
+        @Html.Raw(Content.Html)
+    }
+  </div>
+}
+
+@if (Settings.hasStyles) {
+    <style>
+        @Content.Styles
+    </style>
+}
+
+@if (Settings.hasJavaScript) {
+    <script>
+        @Html.Raw(Content.Script)
+    </script>
+}
+
+<style>
+    .app-snippetinject3-edit {
+        color: #856404;
+        background-color: #fff3cd;
+        padding: .75rem 1.25rem;
+        margin-bottom: 1rem;
+        border-radius: .25rem;
+        display: flex;
+        justify-content: space-between;
+    }
+</style>
