@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<SexyContent FileVersion="07.00.00" MinimumRequiredVersion="07.04.02" ModuleVersion="12.05.00" ExportDate="2021-09-30T09:24:05.5665289+02:00">
+<SexyContent FileVersion="07.00.00" MinimumRequiredVersion="07.04.02" ModuleVersion="12.05.00" ExportDate="2021-09-30T10:23:37.007089+02:00">
   <Header>
     <App Guid="8a4ae8c7-331b-455d-8d77-7ed38948c506" />
     <Language Default="en-us" />
@@ -142,106 +142,6 @@
           <Entity AssignmentObjectType="EAV Field Properties" AttributeSetStaticName="@String" AttributeSetName="@String" EntityGUID="963a3fe1-0a74-4063-80eb-acaeb6a45a69" Json="True" KeyNumber="468" />
           <Entity AssignmentObjectType="EAV Field Properties" AttributeSetStaticName="@string-default" AttributeSetName="@string-default" EntityGUID="cc487031-229b-4440-8906-b7f730b6a4ab" Json="True" KeyNumber="468">
             <Value Key="RowCount" Value="20" Type="Number" />
-          </Entity>
-        </Attribute>
-      </Attributes>
-    </AttributeSet>
-    <AttributeSet StaticName="a051f2bd-8234-47f4-b82d-a7252622853e" Name="PresentationSettings" Description="" Scope="System.Configuration" AlwaysShareConfiguration="false">
-      <Attributes>
-        <Attribute StaticName="hasJavaScript" Type="Boolean" IsTitle="true">
-          <Entity AssignmentObjectType="EAV Field Properties" AttributeSetStaticName="@All" AttributeSetName="@All" EntityGUID="4f31f322-1e93-4c5c-bf0f-7e4d595e491d" Json="True" KeyNumber="4868">
-            <Value Key="CustomJavaScript" Value="" Type="String">
-              <Dimension DimensionID="161" ReadOnly="false" />
-            </Value>
-            <Value Key="DefaultValue" Value="" Type="String">
-              <Dimension DimensionID="161" ReadOnly="false" />
-            </Value>
-            <Value Key="Disabled" Value="False" Type="Boolean">
-              <Dimension DimensionID="161" ReadOnly="false" />
-            </Value>
-            <Value Key="DisableTranslation" Value="False" Type="Boolean">
-              <Dimension DimensionID="161" ReadOnly="false" />
-            </Value>
-            <Value Key="InputType" Value="boolean-default" Type="String">
-              <Dimension DimensionID="161" ReadOnly="false" />
-            </Value>
-            <Value Key="Name" Value="hasJavaScript" Type="String">
-              <Dimension DimensionID="161" ReadOnly="false" />
-            </Value>
-            <Value Key="Notes" Value="" Type="String">
-              <Dimension DimensionID="161" ReadOnly="false" />
-            </Value>
-            <Value Key="Placeholder" Value="" Type="String">
-              <Dimension DimensionID="161" ReadOnly="false" />
-            </Value>
-            <Value Key="Required" Value="False" Type="Boolean">
-              <Dimension DimensionID="161" ReadOnly="false" />
-            </Value>
-            <Value Key="ValidationRegExJavaScript" Value="" Type="String">
-              <Dimension DimensionID="161" ReadOnly="false" />
-            </Value>
-            <Value Key="VisibleInEditUI" Value="True" Type="Boolean">
-              <Dimension DimensionID="161" ReadOnly="false" />
-            </Value>
-          </Entity>
-          <Entity AssignmentObjectType="EAV Field Properties" AttributeSetStaticName="@Boolean" AttributeSetName="@Boolean" EntityGUID="b77dc7ef-2450-4270-b884-57926a2ac9ac" Json="True" KeyNumber="4868">
-            <Value Key="TitleFalse" Value="" Type="String">
-              <Dimension DimensionID="161" ReadOnly="false" />
-            </Value>
-            <Value Key="TitleIndeterminate" Value="" Type="String">
-              <Dimension DimensionID="161" ReadOnly="false" />
-            </Value>
-            <Value Key="TitleTrue" Value="" Type="String">
-              <Dimension DimensionID="161" ReadOnly="false" />
-            </Value>
-          </Entity>
-        </Attribute>
-        <Attribute StaticName="hasStyles" Type="Boolean" IsTitle="false">
-          <Entity AssignmentObjectType="EAV Field Properties" AttributeSetStaticName="@All" AttributeSetName="@All" EntityGUID="30cc672a-7a52-4390-842f-b5c9d33a7727" Json="True" KeyNumber="4869">
-            <Value Key="CustomJavaScript" Value="" Type="String">
-              <Dimension DimensionID="161" ReadOnly="false" />
-            </Value>
-            <Value Key="DefaultValue" Value="" Type="String">
-              <Dimension DimensionID="161" ReadOnly="false" />
-            </Value>
-            <Value Key="Disabled" Value="False" Type="Boolean">
-              <Dimension DimensionID="161" ReadOnly="false" />
-            </Value>
-            <Value Key="DisableTranslation" Value="False" Type="Boolean">
-              <Dimension DimensionID="161" ReadOnly="false" />
-            </Value>
-            <Value Key="InputType" Value="boolean-default" Type="String">
-              <Dimension DimensionID="161" ReadOnly="false" />
-            </Value>
-            <Value Key="Name" Value="hasStyles" Type="String">
-              <Dimension DimensionID="161" ReadOnly="false" />
-            </Value>
-            <Value Key="Notes" Value="" Type="String">
-              <Dimension DimensionID="161" ReadOnly="false" />
-            </Value>
-            <Value Key="Placeholder" Value="" Type="String">
-              <Dimension DimensionID="161" ReadOnly="false" />
-            </Value>
-            <Value Key="Required" Value="False" Type="Boolean">
-              <Dimension DimensionID="161" ReadOnly="false" />
-            </Value>
-            <Value Key="ValidationRegExJavaScript" Value="" Type="String">
-              <Dimension DimensionID="161" ReadOnly="false" />
-            </Value>
-            <Value Key="VisibleInEditUI" Value="True" Type="Boolean">
-              <Dimension DimensionID="161" ReadOnly="false" />
-            </Value>
-          </Entity>
-          <Entity AssignmentObjectType="EAV Field Properties" AttributeSetStaticName="@Boolean" AttributeSetName="@Boolean" EntityGUID="e8404258-189d-4ab2-9717-b923c73429c0" Json="True" KeyNumber="4869">
-            <Value Key="TitleFalse" Value="" Type="String">
-              <Dimension DimensionID="161" ReadOnly="false" />
-            </Value>
-            <Value Key="TitleIndeterminate" Value="" Type="String">
-              <Dimension DimensionID="161" ReadOnly="false" />
-            </Value>
-            <Value Key="TitleTrue" Value="" Type="String">
-              <Dimension DimensionID="161" ReadOnly="false" />
-            </Value>
           </Entity>
         </Attribute>
       </Attributes>
@@ -471,10 +371,10 @@
     </Entity>
     <Entity AssignmentObjectType="App" AttributeSetStaticName="App-Settings" AttributeSetName="App-Settings" EntityGUID="13fe1f08-3cfe-4c5f-b520-05e4a3be5cab" KeyNumber="17" />
     <Entity AssignmentObjectType="App" AttributeSetStaticName="App-Resources" AttributeSetName="App-Resources" EntityGUID="9a492130-59aa-4be1-9893-20b053e98573" KeyNumber="17">
-      <Value Key="DoNotDeleteWarning" Value="Do not delete this app, it's used for injected snippets." Type="String">
+      <Value Key="DoNotDeleteWarning" Value="Snippet: Do not delete this app, it's used for Html/JS/CSS snippets." Type="String">
         <Dimension DimensionID="161" ReadOnly="false" />
       </Value>
-      <Value Key="DoNotDeleteWarning" Value="Löschen Sie diese App nicht, sie wird für injizierte Ausschnitte verwendet." Type="String">
+      <Value Key="DoNotDeleteWarning" Value="Snippet: Löschen Sie diese App nicht, sie wird für Html/Css/JS Snippets verwendet." Type="String">
         <Dimension DimensionID="162" ReadOnly="false" />
       </Value>
     </Entity>
@@ -486,7 +386,7 @@
       <Value Key="Icon" Value="" Type="Hyperlink">
         <Dimension DimensionID="161" ReadOnly="false" />
       </Value>
-      <Value Key="Identifier" Value="" Type="String">
+      <Value Key="Identifier" Value="css" Type="String">
         <Dimension DimensionID="161" ReadOnly="false" />
       </Value>
       <Value Key="IsHidden" Value="False" Type="Boolean">
@@ -501,10 +401,10 @@
       <Value Key="Location" Value="Site" Type="String">
         <Dimension DimensionID="161" ReadOnly="false" />
       </Value>
-      <Value Key="Name" Value="Styles hinzufügen" Type="String">
+      <Value Key="Name" Value="Styles (CSS) Snippet" Type="String">
         <Dimension DimensionID="162" ReadOnly="false" />
       </Value>
-      <Value Key="Name" Value="Add Styles" Type="String">
+      <Value Key="Name" Value="Styles (CSS) Snippet" Type="String">
         <Dimension DimensionID="161" ReadOnly="false" />
       </Value>
       <Value Key="Path" Value="_SnippetInject.cshtml" Type="String">
@@ -522,7 +422,6 @@
       <Value Key="SearchIndexingStreams" Value="" Type="String">
         <Dimension DimensionID="161" ReadOnly="false" />
       </Value>
-      <Value Key="Settings" Value="043ca145-2313-41ca-9f49-9397bc7194fa" Type="Entity" />
       <Value Key="StreamsToPublish" Value="Default,ListContent" Type="String">
         <Dimension DimensionID="161" ReadOnly="false" />
       </Value>
@@ -540,14 +439,18 @@
       </Value>
     </Entity>
     <Entity AssignmentObjectType="Default" AttributeSetStaticName="33e93122-e9f5-4705-9e38-adf0b88040ec" AttributeSetName="Style" EntityGUID="a4c51f0d-c5e9-459a-b4f5-5fcb5f194a0a">
-      <Value Key="Notes" Value="" Type="String" />
-      <Value Key="Styles" Value="/* this is just a demo snippet and shouldn't do anything */&#xA;#someId {&#xA;&#xA;}&#xA;&#xA;.some-class {&#xA;&#xA;}&#xA;&#xA;#someId .some-class {&#xA;&#xA;}" Type="String">
+      <Value Key="Notes" Value="" Type="String">
+        <Dimension DimensionID="161" ReadOnly="false" />
+      </Value>
+      <Value Key="Styles" Value="/* this is just a demo snippet and shouldn't do anything */&#xA;div.app-snippetinject3-edit {&#xA;    opacity: 0.5;&#xA;}&#xA;" Type="String">
         <Dimension DimensionID="161" ReadOnly="false" />
       </Value>
       <Value Key="Styles" Value="/* dies ist nur ein Demoschnipsel und sollte nichts tun */&#xA;#someId {&#xA;&#xA;}&#xA;&#xA;.some-class {&#xA;&#xA;}&#xA;&#xA;#someId .some-class {&#xA;&#xA;}" Type="String">
         <Dimension DimensionID="162" ReadOnly="false" />
       </Value>
-      <Value Key="Title" Value="Demo Styles" Type="String" />
+      <Value Key="Title" Value="Demo Styles" Type="String">
+        <Dimension DimensionID="161" ReadOnly="false" />
+      </Value>
     </Entity>
     <Entity AssignmentObjectType="Default" AttributeSetStaticName="2SexyContent-Template" AttributeSetName="2SexyContent-Template" EntityGUID="21f1df96-5334-4c0a-8da0-3c45a80b1462" Json="True">
       <Value Key="ContentDemoEntity" Value="b4957fd0-fdd4-42e0-b5e7-6b12729ef6ee" Type="Entity" />
@@ -557,7 +460,7 @@
       <Value Key="Icon" Value="" Type="Hyperlink">
         <Dimension DimensionID="161" ReadOnly="false" />
       </Value>
-      <Value Key="Identifier" Value="" Type="String">
+      <Value Key="Identifier" Value="js" Type="String">
         <Dimension DimensionID="161" ReadOnly="false" />
       </Value>
       <Value Key="IsHidden" Value="False" Type="Boolean">
@@ -575,7 +478,7 @@
       <Value Key="Name" Value="JavaScript hinzufügen" Type="String">
         <Dimension DimensionID="162" ReadOnly="false" />
       </Value>
-      <Value Key="Name" Value="Add JavaScript" Type="String">
+      <Value Key="Name" Value="JavaScript Snippet" Type="String">
         <Dimension DimensionID="161" ReadOnly="false" />
       </Value>
       <Value Key="Path" Value="_SnippetInject.cshtml" Type="String">
@@ -593,7 +496,6 @@
       <Value Key="SearchIndexingStreams" Value="" Type="String">
         <Dimension DimensionID="161" ReadOnly="false" />
       </Value>
-      <Value Key="Settings" Value="818642a5-2316-4ba5-ae9d-81398862950a" Type="Entity" />
       <Value Key="StreamsToPublish" Value="Default,ListContent" Type="String">
         <Dimension DimensionID="161" ReadOnly="false" />
       </Value>
@@ -611,17 +513,21 @@
       </Value>
     </Entity>
     <Entity AssignmentObjectType="Default" AttributeSetStaticName="276a9427-a19b-4324-84ba-ce8034d5b977" AttributeSetName="Script" EntityGUID="b4957fd0-fdd4-42e0-b5e7-6b12729ef6ee">
-      <Value Key="Notes" Value="" Type="String" />
-      <Value Key="Script" Value="alert(&quot;this page contains demo JS snippets - edit them to remove this message&quot;);" Type="String">
+      <Value Key="Notes" Value="" Type="String">
+        <Dimension DimensionID="161" ReadOnly="false" />
+      </Value>
+      <Value Key="Script" Value="alert(&quot;this page contains demo JS snippets - edit them and this message will go away&quot;);" Type="String">
         <Dimension DimensionID="161" ReadOnly="false" />
       </Value>
       <Value Key="Script" Value="alert(&quot;diese Seite enthält JS-Demoschnipsel - bearbeiten Sie sie, um diese Meldung zu entfernen&quot;);" Type="String">
         <Dimension DimensionID="162" ReadOnly="false" />
       </Value>
-      <Value Key="Title" Value="Demo script" Type="String" />
+      <Value Key="Title" Value="Demo script" Type="String">
+        <Dimension DimensionID="161" ReadOnly="false" />
+      </Value>
     </Entity>
     <Entity AssignmentObjectType="Default" AttributeSetStaticName="fb0485d2-4e18-4f93-8117-1afd366b8363" AttributeSetName="HtmlFragment" EntityGUID="6f7072f4-dcb9-45e5-9620-5f80d2852aaa">
-      <Value Key="Html" Value="&lt;pre&gt;&#xA;this is a demo fragment - formatted with the &amp;lt;pre&amp;gt; tag&#xA;&lt;/pre&gt;" Type="String">
+      <Value Key="Html" Value="&lt;strong&gt;Snippet Demo&lt;/strong&gt;&#xA;&lt;pre&gt;&#xA;  this is a demo fragment - formatted with the &amp;lt;pre&amp;gt; tag&#xA;&lt;/pre&gt;&#xA;&lt;div&gt;&#xA;  Hit edit to put your desired snippet here.&#xA;&lt;/div&gt;" Type="String">
         <Dimension DimensionID="161" ReadOnly="false" />
       </Value>
       <Value Key="Html" Value="&lt;pre&gt;&#xA;dies ist ein Demo-Fragment - formatiert mit dem &amp;lt;pre&amp;gt; Tag&#xA;&lt;/pre&gt;" Type="String">
@@ -633,7 +539,9 @@
       <Value Key="Notes" Value="" Type="String">
         <Dimension DimensionID="162" ReadOnly="false" />
       </Value>
-      <Value Key="Title" Value="Demo Fragment" Type="String" />
+      <Value Key="Title" Value="Demo Fragment" Type="String">
+        <Dimension DimensionID="161" ReadOnly="false" />
+      </Value>
     </Entity>
     <Entity AssignmentObjectType="Default" AttributeSetStaticName="2SexyContent-Template" AttributeSetName="2SexyContent-Template" EntityGUID="5cfb54da-fcb6-4d86-bc5e-1240cfdaef40" Json="True">
       <Value Key="ContentDemoEntity" Value="6f7072f4-dcb9-45e5-9620-5f80d2852aaa" Type="Entity" />
@@ -643,7 +551,7 @@
       <Value Key="Icon" Value="" Type="Hyperlink">
         <Dimension DimensionID="161" ReadOnly="false" />
       </Value>
-      <Value Key="Identifier" Value="" Type="String">
+      <Value Key="Identifier" Value="html" Type="String">
         <Dimension DimensionID="161" ReadOnly="false" />
       </Value>
       <Value Key="IsHidden" Value="False" Type="Boolean">
@@ -658,10 +566,10 @@
       <Value Key="Location" Value="Site" Type="String">
         <Dimension DimensionID="161" ReadOnly="false" />
       </Value>
-      <Value Key="Name" Value="Html Fragment hinzufügen" Type="String">
+      <Value Key="Name" Value="Html Snippet" Type="String">
         <Dimension DimensionID="162" ReadOnly="false" />
       </Value>
-      <Value Key="Name" Value="Add Html Fragment" Type="String">
+      <Value Key="Name" Value="Html Snippet" Type="String">
         <Dimension DimensionID="161" ReadOnly="false" />
       </Value>
       <Value Key="Path" Value="_SnippetInject.cshtml" Type="String">
@@ -679,7 +587,6 @@
       <Value Key="SearchIndexingStreams" Value="" Type="String">
         <Dimension DimensionID="161" ReadOnly="false" />
       </Value>
-      <Value Key="Settings" Value="694d9d97-9417-4f73-9e48-460cd1114f15" Type="Entity" />
       <Value Key="StreamsToPublish" Value="Default,ListContent" Type="String">
         <Dimension DimensionID="161" ReadOnly="false" />
       </Value>
@@ -723,61 +630,15 @@
       <Value Key="Presentation" Value="null" Type="Entity" />
       <Value Key="Template" Value="45fd1b5f-308e-48af-8c7d-0bdbd75c8614" Type="Entity" />
     </Entity>
-    <Entity AssignmentObjectType="Default" AttributeSetStaticName="a051f2bd-8234-47f4-b82d-a7252622853e" AttributeSetName="PresentationSettings" EntityGUID="818642a5-2316-4ba5-ae9d-81398862950a">
-      <Value Key="hasJavaScript" Value="True" Type="Boolean">
-        <Dimension DimensionID="161" ReadOnly="false" />
-      </Value>
-      <Value Key="hasStyles" Value="False" Type="Boolean">
-        <Dimension DimensionID="161" ReadOnly="false" />
-      </Value>
-    </Entity>
-    <Entity AssignmentObjectType="Default" AttributeSetStaticName="a051f2bd-8234-47f4-b82d-a7252622853e" AttributeSetName="PresentationSettings" EntityGUID="043ca145-2313-41ca-9f49-9397bc7194fa">
-      <Value Key="hasJavaScript" Value="False" Type="Boolean">
-        <Dimension DimensionID="161" ReadOnly="false" />
-      </Value>
-      <Value Key="hasStyles" Value="True" Type="Boolean">
-        <Dimension DimensionID="161" ReadOnly="false" />
-      </Value>
-    </Entity>
-    <Entity AssignmentObjectType="Default" AttributeSetStaticName="a051f2bd-8234-47f4-b82d-a7252622853e" AttributeSetName="PresentationSettings" EntityGUID="694d9d97-9417-4f73-9e48-460cd1114f15">
-      <Value Key="hasJavaScript" Value="False" Type="Boolean">
-        <Dimension DimensionID="161" ReadOnly="false" />
-      </Value>
-      <Value Key="hasStyles" Value="False" Type="Boolean">
-        <Dimension DimensionID="161" ReadOnly="false" />
-      </Value>
-    </Entity>
     <Entity AssignmentObjectType="Default" AttributeSetStaticName="2SexyContent-ContentGroup" AttributeSetName="2SexyContent-ContentGroup" EntityGUID="e4ce8f2d-441f-4991-b4fa-501edb8a1bdb" Json="True">
-      <Value Key="Content" Value="227f2cd5-33b5-4434-917d-ab97068e7646" Type="Entity" />
+      <Value Key="Content" Value="null" Type="Entity" />
       <Value Key="Presentation" Value="null" Type="Entity" />
       <Value Key="Template" Value="21f1df96-5334-4c0a-8da0-3c45a80b1462" Type="Entity" />
     </Entity>
-    <Entity AssignmentObjectType="Default" AttributeSetStaticName="276a9427-a19b-4324-84ba-ce8034d5b977" AttributeSetName="Script" EntityGUID="227f2cd5-33b5-4434-917d-ab97068e7646">
-      <Value Key="Notes" Value="" Type="String">
-        <Dimension DimensionID="161" ReadOnly="false" />
-      </Value>
-      <Value Key="Script" Value="" Type="String">
-        <Dimension DimensionID="161" ReadOnly="false" />
-      </Value>
-      <Value Key="Title" Value="" Type="String">
-        <Dimension DimensionID="161" ReadOnly="false" />
-      </Value>
-    </Entity>
     <Entity AssignmentObjectType="Default" AttributeSetStaticName="2SexyContent-ContentGroup" AttributeSetName="2SexyContent-ContentGroup" EntityGUID="65c1144f-af7b-4f3d-814f-ca521fe2cebe" Json="True">
-      <Value Key="Content" Value="9cd67155-e24d-42e0-8278-12c7834223dd" Type="Entity" />
+      <Value Key="Content" Value="null" Type="Entity" />
       <Value Key="Presentation" Value="null" Type="Entity" />
       <Value Key="Template" Value="45fd1b5f-308e-48af-8c7d-0bdbd75c8614" Type="Entity" />
-    </Entity>
-    <Entity AssignmentObjectType="Default" AttributeSetStaticName="33e93122-e9f5-4705-9e38-adf0b88040ec" AttributeSetName="Style" EntityGUID="9cd67155-e24d-42e0-8278-12c7834223dd">
-      <Value Key="Notes" Value="" Type="String">
-        <Dimension DimensionID="161" ReadOnly="false" />
-      </Value>
-      <Value Key="Styles" Value="* {&#xA;background-color: red !important;&#xA;} " Type="String">
-        <Dimension DimensionID="161" ReadOnly="false" />
-      </Value>
-      <Value Key="Title" Value="" Type="String">
-        <Dimension DimensionID="161" ReadOnly="false" />
-      </Value>
     </Entity>
   </Entities>
   <PortalFiles />
