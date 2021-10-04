@@ -1,7 +1,11 @@
 @inherits Custom.Hybrid.Razor12
 @using ToSic.Razor.Blade;
 @{
+  // Detect what kind of snippet this is (js, html, css)
   var snippetType = CmsContext.View.Identifier;
+
+  // Disable quality-check which otherwise warns 2sxc-developers that inline scripts shouldn't be used
+  // 2sxclint:disable:no-inline-script
 }
 @* Add editing section above the content for admins, because the snippet (js/css) is invisible *@
 @if(Edit.Enabled) {

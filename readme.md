@@ -22,7 +22,7 @@ An app to quickly inject any js / css / html to your page
 | Bootstrap 4         | ✅    | no optimizations needed
 | Bootstrap 5         | ✅    | no optimizations needed
 
-## Customize the app
+## Customize the App
 
 There are no app settings and only one app resource you can change.
 
@@ -32,3 +32,10 @@ But note that you usually don't want to do this, as added snippets should just b
 ## Screenshots
 
 Read more about it in the [App Catalog](https://2sxc.org/en/apps/app/snippet-inject-for-dnn-v2)
+
+## History
+
+* v03.00 2021-10
+    * Upgrade to v12.05 conventions
+    * Switched all injects to use Razor
+    * Reduced views to a single file
