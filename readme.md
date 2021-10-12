@@ -15,8 +15,8 @@ An app to quickly inject any js / css / html to your page
 | Live Demo           | ➖    |
 | Install Checklist   | ✅    | See [Installation](https://azing.org/2sxc/r/fT9O-8LH) on [azing.org](https://azing.org/2sxc)
 | Source & License    | ✅    | included, ISC/MIT
-| App Catalog         | ✅    | See [app catalog](https://2sxc.org/en/apps/app/snippet-inject-for-dnn-v2)
-| Screenshots         | ✅    | See [app catalog](https://2sxc.org/en/apps/app/snippet-inject-for-dnn-v2)
+| App Catalog         | ✅    | See [app catalog](https://2sxc.org/en/apps/app/snippet-inject-v3-hybrid-for-dnn-and-oqtane)
+| Screenshots         | ✅    | See [app catalog](https://2sxc.org/en/apps/app/snippet-inject-v3-hybrid-for-dnn-and-oqtane)
 | Best Practices      | ✅    | Uses v12.05 conventions
 | Bootstrap 3         | ✅    | no optimizations needed
 | Bootstrap 4         | ✅    | no optimizations needed
@@ -28,10 +28,6 @@ There are no app settings and only one app resource you can change.
 
 If you want to customize the CSS, you will usually follow the ["Create Custom Styles in a Standard 2sxc App" checklist](https://azing.org/2sxc/r/gg_aB9FD).
 But note that you usually don't want to do this, as added snippets should just be as-is
-
-## Screenshots
-
-Read more about it in the [App Catalog](https://2sxc.org/en/apps/app/snippet-inject-for-dnn-v2)
 
 ## History
 
