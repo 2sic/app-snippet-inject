@@ -35,3 +35,5 @@ But note that you usually don't want to do this, as added snippets should just b
     * Upgrade to v12.05 conventions
     * Switched all injects to use Razor
     * Reduced views to a single file
+* v3.01 2022-05
+    * Activated Lightspeed
