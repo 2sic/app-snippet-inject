@@ -37,3 +37,5 @@ But note that you usually don't want to do this, as added snippets should just b
     * Reduced views to a single file
 * v3.01 2022-05
     * Activated Lightspeed
+* v3.02 2022-06 
+    * Replaced all base classes with their 2sxc 14 equivalend 
