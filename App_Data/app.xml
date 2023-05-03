@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<SexyContent FileVersion="07.00.00" MinimumRequiredVersion="07.04.02" ModuleVersion="14.09.00" ExportDate="2022-09-21T08:45:00.2354433+02:00">
+<SexyContent FileVersion="07.00.00" MinimumRequiredVersion="07.04.02" ModuleVersion="16.00.00" ExportDate="2023-05-03T15:29:43.1516882+02:00">
   <Header>
     <App Guid="8a4ae8c7-331b-455d-8d77-7ed38948c506" />
     <Language Default="en-us" />
@@ -9,7 +9,7 @@
     </Dimensions>
   </Header>
   <AttributeSets>
-    <AttributeSet StaticName="App-Resources" Name="App-Resources" Description="Stores resources like translations for an app" Scope="System.App" AlwaysShareConfiguration="false">
+    <AttributeSet StaticName="App-Resources" Name="App-Resources" Scope="System.App" AlwaysShareConfiguration="false">
       <Attributes>
         <Attribute StaticName="DoNotDeleteWarning" Type="String" IsTitle="true">
           <Entity TargetType="2" AssignmentObjectType="EAV Field Properties" AttributeSetStaticName="@All" AttributeSetName="@All" EntityGUID="6feed5a4-a47d-4f36-b24a-d4c6d8cb9c31" Json="True" KeyNumber="4125">
@@ -53,10 +53,10 @@
         </Attribute>
       </Attributes>
     </AttributeSet>
-    <AttributeSet StaticName="App-Settings" Name="App-Settings" Description="Stores settings for an app" Scope="System.App" AlwaysShareConfiguration="false">
+    <AttributeSet StaticName="App-Settings" Name="App-Settings" Scope="System.App" AlwaysShareConfiguration="false">
       <Attributes />
     </AttributeSet>
-    <AttributeSet StaticName="fb0485d2-4e18-4f93-8117-1afd366b8363" Name="HtmlFragment" Description="" Scope="Default" AlwaysShareConfiguration="false">
+    <AttributeSet StaticName="fb0485d2-4e18-4f93-8117-1afd366b8363" Name="HtmlFragment" Scope="Default" AlwaysShareConfiguration="false">
       <Attributes>
         <Attribute StaticName="Title" Type="String" IsTitle="true">
           <Entity TargetType="2" AssignmentObjectType="EAV Field Properties" AttributeSetStaticName="@All" AttributeSetName="@All" EntityGUID="5ec88863-70b7-4951-9d1f-0182de5f1dc7" Json="True" KeyNumber="466">
@@ -176,14 +176,14 @@
             <Value Key="InputFontFamily" Value="" Type="String">
               <Dimension DimensionID="161" ReadOnly="false" />
             </Value>
-            <Value Key="RowCount" Value="20" Type="Number">
+            <Value Key="RowCount" Value="20.0" Type="Number">
               <Dimension DimensionID="161" ReadOnly="false" />
             </Value>
           </Entity>
         </Attribute>
       </Attributes>
     </AttributeSet>
-    <AttributeSet StaticName="276a9427-a19b-4324-84ba-ce8034d5b977" Name="Script" Description="" Scope="Default" AlwaysShareConfiguration="false">
+    <AttributeSet StaticName="276a9427-a19b-4324-84ba-ce8034d5b977" Name="Script" Scope="Default" AlwaysShareConfiguration="false">
       <Attributes>
         <Attribute StaticName="Title" Type="String" IsTitle="true">
           <Entity TargetType="2" AssignmentObjectType="EAV Field Properties" AttributeSetStaticName="@All" AttributeSetName="@All" EntityGUID="878c4536-48e8-434e-b6ac-c42a6f2a5877" Json="True" KeyNumber="469">
@@ -276,7 +276,7 @@
         </Attribute>
       </Attributes>
     </AttributeSet>
-    <AttributeSet StaticName="33e93122-e9f5-4705-9e38-adf0b88040ec" Name="Style" Description="" Scope="Default" AlwaysShareConfiguration="false">
+    <AttributeSet StaticName="33e93122-e9f5-4705-9e38-adf0b88040ec" Name="Style" Scope="Default" AlwaysShareConfiguration="false">
       <Attributes>
         <Attribute StaticName="Title" Type="String" IsTitle="true">
           <Entity TargetType="2" AssignmentObjectType="EAV Field Properties" AttributeSetStaticName="@All" AttributeSetName="@All" EntityGUID="9579cda1-0a71-435c-927c-55cf9ced92b6" Json="True" KeyNumber="472">
@@ -396,13 +396,13 @@
       <Value Key="RequiredOqtaneVersion" Value="03.01.00" Type="String">
         <Dimension DimensionID="161" ReadOnly="false" />
       </Value>
-      <Value Key="RequiredVersion" Value="14.09.00" Type="String">
+      <Value Key="RequiredVersion" Value="16.00.00" Type="String">
         <Dimension DimensionID="161" ReadOnly="false" />
       </Value>
       <Value Key="SupportsAjaxReload" Value="True" Type="Boolean">
         <Dimension DimensionID="161" ReadOnly="false" />
       </Value>
-      <Value Key="Version" Value="03.02.01" Type="String">
+      <Value Key="Version" Value="03.03.00" Type="String">
         <Dimension DimensionID="161" ReadOnly="false" />
       </Value>
     </Entity>
@@ -444,7 +444,7 @@
       <Value Key="Name" Value="Styles (CSS) Snippet" Type="String">
         <Dimension DimensionID="161" ReadOnly="false" />
       </Value>
-      <Value Key="Path" Value="_SnippetInject.cshtml" Type="String">
+      <Value Key="Path" Value="SnippetInject.cshtml" Type="String">
         <Dimension DimensionID="161" ReadOnly="false" />
       </Value>
       <Value Key="PresentationTypeStaticName" Value="" Type="String">
@@ -518,7 +518,7 @@
       <Value Key="Name" Value="JavaScript Snippet" Type="String">
         <Dimension DimensionID="161" ReadOnly="false" />
       </Value>
-      <Value Key="Path" Value="_SnippetInject.cshtml" Type="String">
+      <Value Key="Path" Value="SnippetInject.cshtml" Type="String">
         <Dimension DimensionID="161" ReadOnly="false" />
       </Value>
       <Value Key="PresentationTypeStaticName" Value="" Type="String">
@@ -609,7 +609,7 @@
       <Value Key="Name" Value="Html Snippet" Type="String">
         <Dimension DimensionID="161" ReadOnly="false" />
       </Value>
-      <Value Key="Path" Value="_SnippetInject.cshtml" Type="String">
+      <Value Key="Path" Value="SnippetInject.cshtml" Type="String">
         <Dimension DimensionID="161" ReadOnly="false" />
       </Value>
       <Value Key="PresentationTypeStaticName" Value="" Type="String">
