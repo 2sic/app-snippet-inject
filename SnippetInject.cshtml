@@ -8,8 +8,8 @@
   // 2sxclint:disable:no-inline-script
 }
 @* Add editing section above the content for admins, because the snippet (js/css) is invisible *@
-@if(Edit.Enabled) {
-  <div class='app-snippetinject3-edit' @Edit.TagToolbar(Content)>
+@if (Edit.Enabled) {
+  <div class='app-snippetinject3-edit' @Kit.Toolbar.Default(Content)>
       @Resources.DoNotDeleteWarning
   </div>
   <style>

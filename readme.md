@@ -8,7 +8,7 @@ An app to quickly inject any js / css / html to your page
 
 | Aspect              | Status | Comments or Version |
 | ------------------- | :----: | ------------------- |
-| 2sxc                | ✅    | requires 2sxc v13.10
+| 2sxc                | ✅    | requires 2sxc v16
 | Dnn                 | ✅    | For v7, v8 and v9
 | Oqtane 2            | ✅    | Requires v2.02
 | No jQuery           | ✅    | 
@@ -31,11 +31,14 @@ But note that you usually don't want to do this, as added snippets should just b
 
 ## History
 
-* v03.00 2021-10
-    * Upgrade to v12.05 conventions
-    * Switched all injects to use Razor
-    * Reduced views to a single file
-* v3.01 2022-05
-    * Activated Lightspeed
-* v3.02 2022-06 
-    * Replaced all base classes with their 2sxc 14 equivalend 
+* v.03.00 2021-10
+  * Upgrade to v12.05 conventions
+  * Switched all injects to use Razor
+  * Reduced views to a single file
+* v03.01 2022-05
+  * Activated Lightspeed
+* v03.02 2022-06
+  * Replaced all base classes with their 2sxc 14 equivalend 
+* v03.03 2023-05
+  * Removed _ from Filenames
+  * Replace Edit.Toolbar with `@Kit.Toolbar.Default`
