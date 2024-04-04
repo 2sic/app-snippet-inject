@@ -1,5 +1,6 @@
-@inherits Custom.Hybrid.RazorTyped
-@using ToSic.Razor.Blade;
+@inherits AppCode.Razor.AppRazor
+@using ToSic.Razor.Blade
+@using AppCode.Data
 @{
  // The main configuration is the content of the current module
   var snippetContent = MyItem;
@@ -14,7 +15,7 @@
 
 @if (MyUser.IsContentAdmin) {
   <div class='app-snippetinject3-edit' @Kit.Toolbar.Default(snippetContent)>
-      @App.Resources.String("DoNotDeleteWarning")
+      @AppRes.DoNotDeleteWarning
   </div>
   <style>
     .app-snippetinject3-edit {

@@ -8,7 +8,7 @@ An app to quickly inject any js / css / html to your page
 
 | Aspect              | Status | Comments or Version |
 | ------------------- | :----: | ------------------- |
-| 2sxc                | ✅    | requires 2sxc v16.04
+| 2sxc                | ✅    | requires 2sxc v17.06.02
 | Dnn                 | ✅    | For v9.6.1+
 | Oqtane 2            | ✅    | Requires v04.00+
 | No jQuery           | ✅    | 
@@ -45,3 +45,5 @@ But note that you usually don't want to do this, as added snippets should just b
 * v03.04.00 2023-07
   * 2sxc 16.02 coding conventions
   * everything typed
+* v03.04.17 2023-07
+  * strong Typed
