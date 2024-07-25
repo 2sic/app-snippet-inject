@@ -48,4 +48,5 @@ But note that you usually don't want to do this, as added snippets should just b
 * v03.17.00 2023-07
   * strong Typed
   * Auto Generated Class
-  
+* v03.17.01 2024-0
+  * Update app.sln and app.csproj
