@@ -18,8 +18,8 @@ An app to quickly inject any js / css / html to your page
 | App Catalog         | ✅    | See [app catalog](https://2sxc.org/en/apps/app/snippet-inject-v3-hybrid-for-dnn-and-oqtane)
 | Screenshots         | ✅    | See [app catalog](https://2sxc.org/en/apps/app/snippet-inject-v3-hybrid-for-dnn-and-oqtane)
 | Best Practices      | ✅    | Uses v13.10 conventions
-| Bootstrap 3         | ✅    | no optimizations needed
-| Bootstrap 4         | ✅    | no optimizations needed
+| Bootstrap 3         | ❌    | Last supported in v03.21.00
+| Bootstrap 4         | ❌    | Last supported in v03.21.00
 | Bootstrap 5         | ✅    | no optimizations needed
 
 ## Customize the App
@@ -30,6 +30,10 @@ If you want to customize the CSS, you will usually follow the ["Create Custom St
 But note that you usually don't want to do this, as added snippets should just be as-is
 
 ## History
+
+* v03.21.01 2026-10
+  * Removed Bootstrap 3 and Bootstrap 4 support; the app is now Bootstrap 5 only
+  * For Bootstrap 3 or Bootstrap 4, use v03.21.00
 
 * v.03.00 2021-10
   * Upgrade to v12.05 conventions

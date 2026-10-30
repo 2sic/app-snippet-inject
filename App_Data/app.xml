@@ -405,7 +405,7 @@
       <Value Key="SupportsAjaxReload" Value="True" Type="Boolean">
         <Dimension DimensionID="161" ReadOnly="false" />
       </Value>
-      <Value Key="Version" Value="03.21.00" Type="String">
+      <Value Key="Version" Value="03.21.01" Type="String">
         <Dimension DimensionID="161" ReadOnly="false" />
       </Value>
     </Entity>
